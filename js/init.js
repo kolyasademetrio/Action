@@ -13,7 +13,7 @@ $(window).load(function() {
 });
 
 $(document).ready(function() {
-	$('.header__orderButton').magnificPopup({
+	$('.gift__orderButton,.tasks__orderButton,.reasons__orderButton').magnificPopup({
 		type:'inline',
 		removalDelay: 500,
 		mainClass: 'mfp-fade popup_inline',
